@@ -1,0 +1,131 @@
+/* victor.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-section {
+  background-image: url("/webpage/picture/extra\ image.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+.gallery-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff0066;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.lorem-text {
+  position: absolute;
+  top: 55%; /* Adjusted position */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small; /* Smaller font size */
+}
+
+.rounded-btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #00bbff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.additional-content {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.additional-title {
+  color: #000000; /* Black text color */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.blue-btn {
+  background-color: #00bbff; /* Blue background color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.white-btn {
+  background-color: #ffffff; /* White background color */
+  color: #000000; /* Black text color */
+  border: 1px solid #000000; /* Black border */
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* Grid Styles */
+.grid-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-row {
+  display: flex;
+  margin-top: 50px;
+}
+
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  background-color: #ffffff; /* White background color */
+  color: #000000; /* Black text color */
+  border-radius: 10px;
+
+  margin-right: 5px;
+  cursor: pointer;
+}
+.grid-column img {
+  max-width: 80%; /* Set the maximum width to 100% of the container */
+  height: auto; /* Maintain the aspect ratio */
+}
